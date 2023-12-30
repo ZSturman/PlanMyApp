@@ -1,6 +1,6 @@
 {
   "name": "plan-my-app",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "React library to create Software Development Documentation",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -21,7 +21,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZSturman/PlanMyApp"},
+    "url": "https://github.com/ZSturman/PlanMyApp"
+  },
   "author": "Zachary Sturman",
   "license": "MIT",
   "devDependencies": {
