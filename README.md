@@ -14,12 +14,8 @@ npm install plan-my-app
 import { PlanMyApp } from 'plan-my-app';
 ```
 
-
 ## Author
 [Zachary Sturman](https://www.zsdynamics.com)
-
-## Version
-1.0.0
 
 ## Dependencies
 - [react](https://www.npmjs.com/package/react)

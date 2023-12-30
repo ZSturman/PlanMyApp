@@ -1,7 +1,7 @@
 import React from "react";
 import {Goal} from "../Goal";
 
-export interface ISDDProps
+export interface IPmaContainerProps
   extends React.DetailedHTMLProps<
     React.ButtonHTMLAttributes<HTMLButtonElement>,
     HTMLButtonElement
@@ -10,7 +10,7 @@ export interface ISDDProps
   color?: string;
 }
 
-const SDD: React.FC<ISDDProps> = (props) => {
+const PmaContainer: React.FC<IPmaContainerProps> = (props) => {
   const { children, bgc, color, style } = props;
 
   let _style: React.CSSProperties = style || {};
@@ -27,4 +27,4 @@ const SDD: React.FC<ISDDProps> = (props) => {
   );
 };
 
-export default SDD;
+export default PmaContainer;

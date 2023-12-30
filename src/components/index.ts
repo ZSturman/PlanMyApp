@@ -1,2 +1,2 @@
-export { PlanMyApp } from './SDD'
+export { PmaContainer } from './PmaContainer'
 export { Goal } from './Goal'
