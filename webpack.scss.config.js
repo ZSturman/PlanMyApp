@@ -1,30 +1,48 @@
 const path = require("path");
 const glob = require("glob");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-module.exports = {
-  mode: "development",
-  entry: glob.sync("./src/components/**/*.scss"),
-  output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "components-styles.css",
-  },
-  module: {
-    rules: [
-      {
-        test: /\.scss$/,
-        use: [
-          "style-loader", // Injects CSS into the DOM
-          "css-loader", // Translates CSS into CommonJS
-          "sass-loader", // Compiles Sass to CSS
-        ],
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: "asset/resource",
-      },
+// Entry: Find all .scss files in the src/components folder
+const entries = {};
+glob.sync("./src/components/**/*.scss").forEach((file) => {
+  const relativePath = path.relative("./src/components", file);
+  const withoutExtension = relativePath.replace(/\.scss$/, "");
+  entries[withoutExtension] = file;
+});
+
+module.exports = (env) => {
+  return {
+    mode: "development",
+    entry: entries,
+    output: {
+      path: path.resolve(__dirname, "dist"),
+      filename: "[name].css", // this will use the keys from the entries object
+    },
+    module: {
+      rules: [
+        {
+          test: /\.module\.scss$/,
+          use: [
+            env.production ? MiniCssExtractPlugin.loader : "style-loader",
+            {
+              loader: 'css-loader',
+              options: {
+                modules: true,
+                sourceMap: !env.production,
+              },
+            },
+            'sass-loader',
+          ],
+        },
+      ],
+    },
+    plugins: [
+      new MiniCssExtractPlugin({
+        filename: "[name].css",
+      }),
     ],
-  },
-  watchOptions: {
-    ignored: /node_modules/,
-  },
+    watchOptions: {
+      ignored: /node_modules/,
+    },
+  };
 };

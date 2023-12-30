@@ -1,6 +1,6 @@
 import React from "react";
 import {Goal} from "../Goal";
-import './styles/PmaContainer.css'
+import './PmaContainer.module.scss'
 
 export interface IPmaContainerProps extends React.HTMLAttributes<HTMLDivElement> {
   bgc?: string;
