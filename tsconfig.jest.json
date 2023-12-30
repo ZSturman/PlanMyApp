@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json", // Extends your base configuration
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "module": "commonjs", // Jest typically works well with CommonJS modules
+    "target": "es6", // or whatever target is appropriate for your environment
+    "jsx": "react", // if you're using React and JSX in your tests
+    "noEmit": true, // Prevents output of compiled files during testing
+    "isolatedModules": true, // Ensures each file can be transpiled in isolation (important for Jest)
+    "esModuleInterop": true, // Aligns with Jest's module system
+    "skipLibCheck": true // Speeds up compilation by skipping type checks for declaration files
+  },
+  "include": [
+    "src/**/*", // Include your source files
+    "tests/**/*" // Include your test files
+  ],
+  "exclude": [
+    "node_modules", // Exclude node_modules
+    "dist" // Exclude your build output directory
+  ]
+}

@@ -39,6 +39,11 @@
       display: none;
     }
 
+
+  .number-one {
+    background-color: red;
+  }
+
   @media print {
     /* Adjust styles for print here */
     body {

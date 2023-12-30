@@ -1,13 +1,11 @@
 import React from "react";
 import {Goal} from "../Goal";
+import './styles/PmaContainer.css'
 
-export interface IPmaContainerProps
-  extends React.DetailedHTMLProps<
-    React.ButtonHTMLAttributes<HTMLButtonElement>,
-    HTMLButtonElement
-  > {
+export interface IPmaContainerProps extends React.HTMLAttributes<HTMLDivElement> {
   bgc?: string;
   color?: string;
+  ref?: React.LegacyRef<HTMLDivElement>;
 }
 
 const PmaContainer: React.FC<IPmaContainerProps> = (props) => {
@@ -20,10 +18,10 @@ const PmaContainer: React.FC<IPmaContainerProps> = (props) => {
   if (color) _style.color = color;
 
   return (
-    <button style={_style} {...props}>
+    <div style={_style} {...props } className="number-one">
         <Goal />
       {children}
-    </button>
+    </div>
   );
 };
 
