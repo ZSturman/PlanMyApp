@@ -1,0 +1,669 @@
+{
+  "Type": [
+    {
+      "Web Application": {
+        "Description": "An application meant to be accessed through a web browser",
+        "Example": "Facebook, Twitter, Instagram",
+        "Tool-tip": "The type of application is a web application"
+      },
+      "Mobile Application": {
+        "Description": "An application meant to be accessed from a mobile device",
+        "Example": "Facebook, Twitter, Instagram",
+        "Tool-tip": "The type of application is a mobile application"
+      },
+      "Desktop Application": {
+        "Description": "An application meant to be accessed from a dekstop computer",
+        "Example": "Microsoft Word, Microsoft Excel, Microsoft PowerPoint",
+        "Tool-tip": "The type of application is a desktop application"
+      },
+      "Enterprise Platform": {
+        "Description": "A platform meant to be used by an organization",
+        "Example": "Salesforce, SAP, Oracle",
+        "Tool-tip": "The type of application is an enterprise platform"
+      },
+      "Content Management System": {
+        "Description": "A system meant to manage content",
+        "Example": "WordPress, Drupal, Joomla",
+        "Tool-tip": "The type of application is a content management system"
+      },
+      "Embedded System": {
+        "Description": "A system meant to be used by another system",
+        "Example": "Smart TV, Smart Watch, Smart Speaker",
+        "Tool-tip": "The type of application is an embedded system"
+      },
+      "Game Development": {
+        "Description": "A video game meant to be played by a user",
+        "Example": "Call of Duty, Fortnite, League of Legends",
+        "Tool-tip": "The type of application is a game"
+      },
+      "Data Science/ Analytics Application": {
+        "Description": "An applciation or platform meant to analyze data",
+        "Example": "Google Analytics, Tableau, Power BI",
+        "Tool-tip": "The type of application is a data science/ analytics application"
+      },
+      "IoT Application": {
+        "Description": "An applciation or service meant to be used by an IoT device",
+        "Example": "Smart TV, Smart Watch, Smart Speaker",
+        "Tool-tip": "The type of application is an IoT application"
+      },
+      "Other": {
+        "Description": "This application could turn out to be any of these or none of these",
+        "Example": "Don’t know yet",
+        "Tool-tip": "The type of application is unknown"
+      },
+      "I don’t know yet": {
+        "Description": "This application could turn out to be any of these or none of these",
+        "Example": "Anything is possible",
+        "Tool-tip": "The type of application is unknown"
+      }
+    }
+  ],
+  "Goal": [
+    {
+      "Purpose": {
+        "Description": "What is the purpose of the product?",
+        "Example": "To provide a platform for users to share their photos",
+        "Tool-tip": "This is the purpose of the product"
+      },
+      "Target Audience": {
+        "Description": "Who is the target audience?",
+        "Example": "Photographers",
+        "Tool-tip": "This is the target audience"
+      },
+      "Vision Statement": {
+        "Description": "What is the vision statement?",
+        "Example": "To be the best photo sharing platform",
+        "Tool-tip": "This is the vision statement"
+      },
+      "Success Metrics": {
+        "Description": "How will you measure success?",
+        "Example": "Number of photos shared",
+        "Tool-tip": "This is how you will measure success"
+      },
+      "Competitive Analysis": {
+        "Description": "What are the competitors?",
+        "Example": "Instagram, Flickr, Google Photos",
+        "Tool-tip": "These are the competitors"
+      }
+    }
+  ],
+  "Key Features": [
+    {
+      "Core Functionality": {
+        "Description": "What are the core features?",
+        "Example": "Upload photos, view photos, comment on photos",
+        "Tool-tip": "These are the core features"
+      },
+      "User Flows": {
+        "Description": "What are the user flows?",
+        "Example": "Click upload, select photo, add caption, click post",
+        "Tool-tip": "These are the user flows"
+      },
+      "Must-have": {
+        "Description": "What are the must-have features?",
+        "Example": "Ability to upload photos",
+        "Tool-tip": "These are the must-have features"
+      },
+      "Nice-to-have": {
+        "Description": "What are the nice-to-have features?",
+        "Example": "Ability to comment on photos",
+        "Tool-tip": "These are the nice-to-have features"
+      },
+      "Future-considerations": {
+        "Description": "What are the future considerations?",
+        "Example": "Ability to add filters to photos",
+        "Tool-tip": "These are the future considerations"
+      }
+    }
+  ],
+  "User Stories": [
+    {
+      "End Users": {
+        "Description": "What do the end users want?",
+        "Example": "As a PHOTOGRAPHER I want to SHARE MY PHOTOS so that I can SHOWCASE MY WORK",
+        "Tool-tip": "These are the end users"
+      },
+      "Disabled Users": {
+        "Description": "What do the disabled users want?",
+        "Example": "As a VISUALLY IMPAIRED USER I want to USE A SCREEN READER so that I can ACCESS THE APP",
+        "Tool-tip": "These are the disabled users"
+      },
+      "Tech-Savvy Users": {
+        "Description": "What do the tech-savvy users want?",
+        "Example": "As a TECH-SAVVY USER I want to USE KEYBOARD SHORTCUTS so that I can NAVIGATE THE APP QUICKLY",
+        "Tool-tip": "These are the tech-savvy users"
+      },
+      "Tech-Naive Users": {
+        "Description": "What do the tech-naive users want?",
+        "Example": "As a TECH-NAIVE USER I want to USE A SIMPLE INTERFACE so that I can NAVIGATE THE APP EASILY",
+        "Tool-tip": "These are the tech-naive users"
+      },
+      "International Users": {
+        "Description": "What do the international users want?",
+        "Example": "As an INTERNATIONAL USER I want to USE THE APP IN MY NATIVE LANGUAGE so that I can UNDERSTAND THE APP",
+        "Tool-tip": "These are the international users"
+      },
+      "Occasional Users": {
+        "Description": "What do the occasional users want?",
+        "Example": "As an OCCASIONAL USER I want to USE THE APP WITHOUT SIGNING UP so that I can ACCESS THE APP QUICKLY",
+        "Tool-tip": "These are the occasional users"
+      },
+      "Frequent Users": {
+        "Description": "What do the frequent users want?",
+        "Example": "As a FREQUENT USER I want to USE THE APP WITHOUT ADS so that I can ACCESS THE APP QUICKLY",
+        "Tool-tip": "These are the frequent users"
+      }
+    }
+  ],
+  "Tech Stack": [
+    {
+      "Frontend": {
+        "Description": "What is the frontend tech stack?",
+        "Example": "React, Redux, React Native",
+        "Tool-tip": "This is the frontend tech stack"
+      },
+      "Backend": {
+        "Description": "What is the backend tech stack?",
+        "Example": "Node, Express, GraphQL",
+        "Tool-tip": "This is the backend tech stack"
+      },
+      "Database": {
+        "Description": "What is the database tech stack?",
+        "Example": "PostgreSQL, MongoDB",
+        "Tool-tip": "This is the database tech stack"
+      },
+      "Containerization": {
+        "Description": "What is the containerization tech stack?",
+        "Example": "Docker, Kubernetes",
+        "Tool-tip": "This is the containerization tech stack"
+      },
+      "Additional Tools": {
+        "Description": "What are the additional tools?",
+        "Example": "AWS, Google Cloud, Heroku",
+        "Tool-tip": "These are the additional tools"
+      }
+    }
+  ],
+  "User Onboarding": [
+    {
+      "First impressions": {
+        "Description": "How will you make a good first impression?",
+        "Example": "Show a welcome screen",
+        "Tool-tip": "This is how you will make a good first impression"
+      },
+      "Sign-up process": {
+        "Description": "How will you make the sign-up process easy?",
+        "Example": "Allow users to sign up with Google",
+        "Tool-tip": "This is how you will make the sign-up process easy"
+      },
+      "Introduction to features": {
+        "Description": "How will you introduce users to features?",
+        "Example": "Show a tutorial",
+        "Tool-tip": "This is how you will introduce users to features"
+      },
+      "Set user expectations": {
+        "Description": "How will you set user expectations?",
+        "Example": "Show a loading screen",
+        "Tool-tip": "This is how you will set user expectations"
+      },
+      "Progressive disclosure": {
+        "Description": "How will you progressively disclose information?",
+        "Example": "Show a tooltip",
+        "Tool-tip": "This is how you will progressively disclose information"
+      },
+      "Personalization": {
+        "Description": "How will you personalize the experience?",
+        "Example": "Show recommended content",
+        "Tool-tip": "This is how you will personalize the experience"
+      },
+      "Feedback Opportunities": {
+        "Description": "How will you provide feedback opportunities?",
+        "Example": "Show a feedback form",
+        "Tool-tip": "This is how you will provide feedback opportunities"
+      }
+    }
+  ],
+  "User Retention": [
+    {
+      "Update schedule": {
+        "Description": "How will you update the app?",
+        "Example": "Release updates every 2 weeks",
+        "Tool-tip": "This is how you will update the app"
+      },
+      "Engagement hooks": {
+        "Description": "How will you engage users?",
+        "Example": "Send push notifications",
+        "Tool-tip": "This is how you will engage users"
+      },
+      "Reward loyalty": {
+        "Description": "How will you reward loyalty?",
+        "Example": "Give users a badge",
+        "Tool-tip": "This is how you will reward loyalty"
+      },
+      "Customer support": {
+        "Description": "How will you provide customer support?",
+        "Example": "Provide a help center",
+        "Tool-tip": "This is how you will provide customer support"
+      },
+      "Performance optimization ": {
+        "Description": "How will you optimize performance?",
+        "Example": "Reduce load times",
+        "Tool-tip": "This is how you will optimize performance"
+      },
+      "Community building": {
+        "Description": "How will you build a community?",
+        "Example": "Create a forum",
+        "Tool-tip": "This is how you will build a community"
+      }
+    }
+  ],
+  "Deployment Method": [
+    {
+      "iOS": {
+        "Description": "How will you deploy to iOS?",
+        "Example": "App Store",
+        "Tool-tip": "This is how you will deploy to iOS"
+      },
+      "Android": {
+        "Description": "How will you deploy to Android?",
+        "Example": "Google Play Store",
+        "Tool-tip": "This is how you will deploy to Android"
+      },
+      "Web": {
+        "Description": "How will you deploy to the web?",
+        "Example": "Website",
+        "Tool-tip": "This is how you will deploy to the web"
+      },
+      "Cross-platform": {
+        "Description": "How will you deploy cross-platform?",
+        "Example": "React Native, Flutter",
+        "Tool-tip": "This is how you will deploy cross-platform"
+      },
+      "Desktop": {
+        "Description": "How will you deploy to desktop?",
+        "Example": "Electron",
+        "Tool-tip": "This is how you will deploy to desktop"
+      }
+    }
+  ],
+  "Optimization": [
+    {
+      "Visibility": {
+        "Description": "How will you increase visibility?",
+        "Example": "SEO",
+        "Tool-tip": "This is how you will increase visibility"
+      },
+      "Presentation": {
+        "Description": "How will you improve presentation?",
+        "Example": "UI/UX",
+        "Tool-tip": "This is how you will improve presentation"
+      },
+      "Ratings and Reviews": {
+        "Description": "How will you improve ratings and reviews?",
+        "Example": "App Store Optimization",
+        "Tool-tip": "This is how you will improve ratings and reviews"
+      }
+    }
+  ],
+  "Rollout Strategies": [
+    {
+      "Phased rollout": {
+        "Description": "How will you do a phased rollout?",
+        "Example": "Release to 10% of users",
+        "Tool-tip": "This is how you will do a phased rollout"
+      },
+      "Feature flags": {
+        "Description": "How will you use feature flags?",
+        "Example": "Using feature flags in code to turn features on and off",
+        "Tool-tip": "This is how you will use feature flags"
+      },
+      "Advertising": {
+        "Description": "How will you use advertising?",
+        "Example": "Using ads to promote the app",
+        "Tool-tip": "This is how you will use advertising"
+      },
+      "Content Marketing": {
+        "Description": "How will you use content marketing?",
+        "Example": "Writing blog posts to promote the app",
+        "Tool-tip": "This is how you will use content marketing"
+      },
+      "Promotional offers": {
+        "Description": "How will you use promotional offers?",
+        "Example": "Offering discounts to promote the app",
+        "Tool-tip": "This is how you will use promotional offers"
+      }
+    }
+  ],
+  "Analytics": [
+    {
+      "User Behavior": {
+        "Description": "What user behavior will you track?",
+        "Example": "Number of photos shared",
+        "Tool-tip": "This is the user behavior you will track"
+      },
+      "User Feedback": {
+        "Description": "What user feedback will you track?",
+        "Example": "Number of user feedback forms submitted",
+        "Tool-tip": "This is the user feedback you will track"
+      },
+      "Sales": {
+        "Description": "What sales will you track?",
+        "Example": "Number of in-app purchases",
+        "Tool-tip": "This is the sales you will track"
+      },
+      "Tags": {
+        "Description": "What tags will you track?",
+        "Example": "Google Tag Manager/ Google Analytics",
+        "Tool-tip": "This is the tags you will track"
+      }
+    }
+  ],
+  "APIs": [
+    {
+      "Documentation": {
+        "Description": "How will you document the APIs?",
+        "Example": "Swagger",
+        "Tool-tip": "This is how you will document the APIs"
+      },
+      "Versioning": {
+        "Description": "How will you version the APIs?",
+        "Example": "Semantic Versioning",
+        "Tool-tip": "This is how you will version the APIs"
+      },
+      "Security/ Tokens": {
+        "Description": "How will you secure the APIs?",
+        "Example": "JWT",
+        "Tool-tip": "This is how you will secure the APIs"
+      },
+      "Testing": {
+        "Description": "How will you test the APIs?",
+        "Example": "Postman",
+        "Tool-tip": "This is how you will test the APIs"
+      },
+      "Request Headers": {
+        "Description": "What request headers will you use?",
+        "Example": "Content-Type",
+        "Tool-tip": "These are the request headers you will use"
+      },
+      "Response Headers": {
+        "Description": "What response headers will you use?",
+        "Example": "Content-Type",
+        "Tool-tip": "These are the response headers you will use"
+      },
+      "Base URL": {
+        "Description": "What is the base URL?",
+        "Example": "https://api.example.com",
+        "Tool-tip": "This is the base URL"
+      },
+      "Endpoints": {
+        "Description": "What are the endpoints?",
+        "Example": "https://api.example.com/users",
+        "Tool-tip": "These are the endpoints"
+      },
+      "Methods": {
+        "Description": "What are the methods?",
+        "Example": "GET, POST, PUT, DELETE",
+        "Tool-tip": "These are the methods"
+      },
+      "Parameters": {
+        "Description": "What are the parameters?",
+        "Example": "id",
+        "Tool-tip": "These are the parameters"
+      },
+      "Status Codes": {
+        "Description": "What are the status codes?",
+        "Example": "200, 400, 500",
+        "Tool-tip": "These are the status codes"
+      },
+      "Response Body": {
+        "Description": "What is the response body?",
+        "Example": "{ id: 1, name: 'John Doe' }",
+        "Tool-tip": "This is the response body"
+      },
+      "Response Time": {
+        "Description": "What is the response time?",
+        "Example": "100ms",
+        "Tool-tip": "This is the response time"
+      },
+      "Response Size": {
+        "Description": "What is the response size?",
+        "Example": "1kb",
+        "Tool-tip": "This is the response size"
+      },
+      "Caching": {
+        "Description": "How will you cache the APIs?",
+        "Example": "Redis",
+        "Tool-tip": "This is how you will cache the APIs"
+      },
+      "Compression": {
+        "Description": "How will you compress the APIs?",
+        "Example": "Gzip",
+        "Tool-tip": "This is how you will compress the APIs"
+      },
+      "Rate Limiting": {
+        "Description": "How will you rate limit the APIs?",
+        "Example": "100 requests per minute",
+        "Tool-tip": "This is how you will rate limit the APIs"
+      },
+      "Logging": {
+        "Description": "How will you log the APIs?",
+        "Example": "Winston",
+        "Tool-tip": "This is how you will log the APIs"
+      },
+      "Monitoring": {
+        "Description": "How will you monitor the APIs?",
+        "Example": "New Relic",
+        "Tool-tip": "This is how you will monitor the APIs"
+      },
+      "Alerting": {
+        "Description": "How will you alert the APIs?",
+        "Example": "PagerDuty",
+        "Tool-tip": "This is how you will alert the APIs"
+      },
+      "Tracing": {
+        "Description": "How will you trace the APIs?",
+        "Example": "Jaeger",
+        "Tool-tip": "This is how you will trace the APIs"
+      },
+      "Mocking": {
+        "Description": "How will you mock the APIs?",
+        "Example": "Postman",
+        "Tool-tip": "This is how you will mock the APIs"
+      }
+    }
+  ],
+  "Wireframes": [
+    {
+      "Login/ Signup": {
+        "Description": "What are the login/ signup wireframes?",
+        "Example": "Login screen, signup screen",
+        "Tool-tip": "These are the login/ signup wireframes"
+      },
+      "Homepage": {
+        "Description": "What are the homepage wireframes?",
+        "Example": "Homepage, feed",
+        "Tool-tip": "These are the homepage wireframes"
+      },
+      "User Settings": {
+        "Description": "What are the user settings wireframes?",
+        "Example": "User settings, account settings",
+        "Tool-tip": "These are the user settings wireframes"
+      },
+      "User Profile": {
+        "Description": "What are the user profile wireframes?",
+        "Example": "User profile, user feed",
+        "Tool-tip": "These are the user profile wireframes"
+      },
+      "Messaging": {
+        "Description": "What are the messaging wireframes?",
+        "Example": "Messaging, chat",
+        "Tool-tip": "These are the messaging wireframes"
+      }
+    }
+  ],
+  "Architecture": [
+    {
+      "Backend": {
+        "Description": "What is the backend architecture?",
+        "Example": "Monolithic, Microservices",
+        "Tool-tip": "This is the backend architecture"
+      },
+      "Database": {
+        "Description": "What is the database architecture?",
+        "Example": "Relational, Non-relational",
+        "Tool-tip": "This is the database architecture"
+      },
+      "Containerization": {
+        "Description": "What is the containerization architecture?",
+        "Example": "Docker, Kubernetes",
+        "Tool-tip": "This is the containerization architecture"
+      },
+      "Security": {
+        "Description": "What is the security architecture?",
+        "Example": "OAuth, JWT",
+        "Tool-tip": "This is the security architecture"
+      },
+      "Testing": {
+        "Description": "What is the testing architecture?",
+        "Example": "Unit, Integration, System",
+        "Tool-tip": "This is the testing architecture"
+      }
+    }
+  ],
+  "Database": [
+    {
+      "Schema": {
+        "Description": "What is the database schema?",
+        "Example": "Relational, Non-relational",
+        "Tool-tip": "This is the database schema"
+      },
+      "Migrations": {
+        "Description": "What are the database migrations?",
+        "Example": "Create table, drop table",
+        "Tool-tip": "These are the database migrations"
+      },
+      "Security": {
+        "Description": "What is the database security?",
+        "Example": "OAuth, JWT",
+        "Tool-tip": "This is the database security"
+      }
+    }
+  ],
+  "Post Deployment": [
+    {
+      "Upgrades": {
+        "Description": "How will you upgrade the app?",
+        "Example": "Release updates every 2 weeks",
+        "Tool-tip": "This is how you will upgrade the app"
+      },
+      "Versioning": {
+        "Description": "How will you version the app?",
+        "Example": "Semantic Versioning",
+        "Tool-tip": "This is how you will version the app"
+      },
+      "Testing": {
+        "Description": "How will you test the app?",
+        "Example": "Unit, Integration, System",
+        "Tool-tip": "This is how you will test the app"
+      }
+    }
+  ],
+  "Testing": [
+    {
+      "Unit": {
+        "Description": "What is unit testing?",
+        "Example": "Testing individual functions",
+        "Tool-tip": "This is unit testing"
+      },
+      "Integration": {
+        "Description": "What is integration testing?",
+        "Example": "Testing multiple functions together",
+        "Tool-tip": "This is integration testing"
+      },
+      "System": {
+        "Description": "What is system testing?",
+        "Example": "Testing the entire system",
+        "Tool-tip": "This is system testing"
+      },
+      "Interface": {
+        "Description": "What is interface testing?",
+        "Example": "Testing the user interface",
+        "Tool-tip": "This is interface testing"
+      },
+      "Usability": {
+        "Description": "What is usability testing?",
+        "Example": "Testing the user experience",
+        "Tool-tip": "This is usability testing"
+      },
+      "Compatibility": {
+        "Description": "What is compatibility testing?",
+        "Example": "Testing the app on different devices",
+        "Tool-tip": "This is compatibility testing"
+      },
+      "Load": {
+        "Description": "What is load testing?",
+        "Example": "Testing the app under normal load",
+        "Tool-tip": "This is load testing"
+      },
+      "Stress": {
+        "Description": "What is stress testing?",
+        "Example": "Testing the app under extreme load",
+        "Tool-tip": "This is stress testing"
+      },
+      "Capacity": {
+        "Description": "What is capacity testing?",
+        "Example": "Testing the app under maximum load",
+        "Tool-tip": "This is capacity testing"
+      },
+      "Security": {
+        "Description": "What is security testing?",
+        "Example": "Testing the app for security vulnerabilities",
+        "Tool-tip": "This is security testing"
+      },
+      "Alpha": {
+        "Description": "What is alpha testing?",
+        "Example": "Testing the app internally",
+        "Tool-tip": "This is alpha testing"
+      },
+      "Beta": {
+        "Description": "What is beta testing?",
+        "Example": "Testing the app externally",
+        "Tool-tip": "This is beta testing"
+      },
+      "Regression": {
+        "Description": "What is regression testing?",
+        "Example": "Testing the app after updates",
+        "Tool-tip": "This is regression testing"
+      },
+      "Automated": {
+        "Description": "What is automated testing?",
+        "Example": "Testing the app with scripts",
+        "Tool-tip": "This is automated testing"
+      }
+    }
+  ],
+  "Monitization": [
+    {
+      "Ads": {
+        "Description": "How will you monetize with ads?",
+        "Example": "Banner ads, video ads",
+        "Tool-tip": "This is how you will monetize with ads"
+      },
+      "In-app purchase": {
+        "Description": "How will you monetize with in-app purchase?",
+        "Example": "Unlock premium features",
+        "Tool-tip": "This is how you will monetize with in-app purchase"
+      },
+      "Subscriptions": {
+        "Description": "How will you monetize with subscriptions?",
+        "Example": "Monthly, yearly",
+        "Tool-tip": "This is how you will monetize with subscriptions"
+      },
+      "Premium features": {
+        "Description": "How will you monetize with premium features?",
+        "Example": "Unlock filters",
+        "Tool-tip": "This is how you will monetize with premium features"
+      }
+    }
+  ]
+}
