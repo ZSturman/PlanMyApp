@@ -1,1 +1,1 @@
-export { default as SDD } from './SDD'
+export { default as PlanMyApp } from './SDD'

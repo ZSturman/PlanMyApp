@@ -1,2 +1,2 @@
-export { SDD } from './SDD'
+export { PlanMyApp } from './SDD'
 export { Goal } from './Goal'
