@@ -1,5 +1,5 @@
 # Plan-My-App 
-## React Library for Planning and Designing Software Development Documents
+## React Library for Planning and Designing Software Development Documentation
 
 ### Description
 Plan-My-App is a React library that allows users to create and edit software development documents. The library is currently in development and is not yet ready for production use.

@@ -1,7 +1,7 @@
 {
   "name": "plan-my-app",
   "version": "1.0.12",
-  "description": "testing out webpack",
+  "description": "React library to create Software Development Documentation",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -12,9 +12,16 @@
     "build:cjs": "tsc --module CommonJS --outDir ./dist/cjs",
     "build:esm": "tsc",
     "build:lib": "npm run clean && npm run build:esm && npm run build:cjs",
+    "prepublish": "npm run build:lib",
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major",
     "build:app": "webpack",
     "dev": "webpack serve --open"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZSturman/PlanMyApp"},
   "author": "Zachary Sturman",
   "license": "MIT",
   "devDependencies": {
