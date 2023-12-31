@@ -1,1 +1,1 @@
-export * from './VisionStatement'
+export {default as VisionStatement} from './VisionStatement'

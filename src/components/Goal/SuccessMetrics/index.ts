@@ -1,1 +1,1 @@
-export * from'./SccessMetrics'
+export {default as SuccessMetrics} from'./SuccessMetrics'

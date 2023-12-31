@@ -1,1 +1,1 @@
-export * from './CompetitiveAnalysis'
+export {default as CompetitiveAnalysis} from './CompetitiveAnalysis'

@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export interface ICompetitiveAnalysisProps {}
+type CompetitiveAnalysisProps = {
+  content: string;
+};
 
-export const CompetitiveAnalysis: React.FC<ICompetitiveAnalysisProps> = () => {
-  return (
-    <div>
-      CompetitiveAnalysis
-    </div>
-)};
+const CompetitiveAnalysis = ({ content }: CompetitiveAnalysisProps) => {
+  return <div>{content}</div>;
+};
+
+export default CompetitiveAnalysis;

@@ -1,1 +1,1 @@
-export { default } from './Purpose'
+export { default as Purpose } from './Purpose'

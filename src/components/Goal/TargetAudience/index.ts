@@ -1,1 +1,1 @@
-export * from './TargetAudience'
+export {default as TargetAudience} from './TargetAudience'

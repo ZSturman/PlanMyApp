@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export interface ITargetAudienceProps {}
+type TargetAudienceProps = {
+  content: string;
+};
 
-export const TargetAudience: React.FC<ITargetAudienceProps> = () => {
-  return (
-    <div>
-      TargetAudience
-    </div>
-)};
+const TargetAudience = ({ content }: TargetAudienceProps) => {
+  return <div>{content}</div>;
+};
+
+export default TargetAudience;

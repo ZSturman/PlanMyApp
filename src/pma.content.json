@@ -1,0 +1,32 @@
+{
+    "theme": "PDFPreview",
+    "coverPage": {
+        "title": "Project Title",
+        "logo": "logo.png",
+        "contributors": [
+            {
+                "role": "Project Manager",
+                "name": "John Doe"
+            },
+            {
+                "role": "Designer",
+                "name": "Jane Doe"
+            },
+            {
+                "role": "Developer",
+                "name": "John Smith"
+            }
+        ]
+    },
+    "goal": {
+        "purpose": "The purpose of this project is to...",
+        "visionStatement": "The vision of this project is to...",
+        "targetAudience": "The target audience for this project is...",
+        "successMetrics": [
+            "Success Metric 1",
+            "Success Metric 2",
+            "Success Metric 3"
+        ],
+        "competetiveAnalysis": "Competetive Analysis content goes here..."
+    }    
+}

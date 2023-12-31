@@ -1,6 +1,7 @@
 const path = require("path");
 const glob = require("glob");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 // Entry: Find all .scss files in the src/components folder
 const entries = {};
@@ -12,7 +13,7 @@ glob.sync("./src/components/**/*.scss").forEach((file) => {
 
 module.exports = (env) => {
   return {
-    mode: "development",
+    mode: "production",
     entry: entries,
     output: {
       path: path.resolve(__dirname, "dist"),
@@ -39,6 +40,14 @@ module.exports = (env) => {
     plugins: [
       new MiniCssExtractPlugin({
         filename: "[name].css",
+      }),
+      new CopyWebpackPlugin({
+        patterns: Object.keys(entries).map((name) => {
+          return {
+            from: path.resolve(__dirname, 'dist', `${name}.css`),
+            to: path.resolve(__dirname, 'src', 'components', `${name}.css`),
+          };
+        }),
       }),
     ],
     watchOptions: {

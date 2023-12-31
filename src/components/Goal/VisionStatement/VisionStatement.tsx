@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export interface IVisionStatementProps {}
+type VisionStatementProps = {
+  content: string;
+};
 
-export const VisionStatement: React.FC<IVisionStatementProps> = () => {
-  return (
-    <div>
-      VisionStatement
-    </div>
-)};
+const VisionStatement = ({ content }: VisionStatementProps) => {
+  return <div>{content}</div>;
+};
+
+export default VisionStatement;

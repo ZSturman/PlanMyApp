@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export interface IPurposeProps {}
+type PurposeProps = {
+  content: string;
+};
 
-const Purpose: React.FC<IPurposeProps> = () => {
-  return (
-    <div>
-      Purpose
-    </div>
-)};
+const Purpose = ({ content }: PurposeProps) => {
+  return <div>{content}</div>;
+};
 
 export default Purpose;

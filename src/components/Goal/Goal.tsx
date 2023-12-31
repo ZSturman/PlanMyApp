@@ -1,21 +1,28 @@
 import React from "react";
-import {CompetitiveAnalysis} from "./CompetitiveAnalysis";
-import Purpose from "./Purpose";
+import { CompetitiveAnalysis } from "./CompetitiveAnalysis";
+import { Purpose } from "./Purpose";
 import {SuccessMetrics} from "./SuccessMetrics";
 import {TargetAudience} from "./TargetAudience";
 import {VisionStatement} from "./VisionStatement";
 
-export interface IGoalProps {}
+type GoalProps = {
+  content: {
+    purpose: string;
+    visionStatement: string;
+    targetAudience: string;
+    successMetrics: string[];
+    competetiveAnalysis: string;
+  };
+};
 
-const Goal: React.FC<IGoalProps> = () => {
+const Goal = ({ content }: GoalProps) => {
   return (
-    <div>
-      Goal
-      <CompetitiveAnalysis />
-      <Purpose />
-      <SuccessMetrics />
-      <TargetAudience />
-      <VisionStatement />
+    <div >
+      <Purpose content={content.purpose} />
+      <VisionStatement content={content.visionStatement} />
+      <TargetAudience content={content.targetAudience} />
+      <SuccessMetrics metrics={content.successMetrics} />
+      <CompetitiveAnalysis content={content.competetiveAnalysis} />
     </div>
   );
 };

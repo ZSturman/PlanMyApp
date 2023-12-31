@@ -1,27 +1,17 @@
 import React from "react";
-import {Goal} from "../Goal";
-import './PmaContainer.module.scss'
+import { StyledPmaContainer } from "../styles/PmaContainer.styled";
+import { CoverPage } from "../CoverPage";
+import { Goal } from "../Goal";
+import pmaData from '../../pma.content.json'
 
-export interface IPmaContainerProps extends React.HTMLAttributes<HTMLDivElement> {
-  bgc?: string;
-  color?: string;
-  ref?: React.LegacyRef<HTMLDivElement>;
-}
+type PmaContainerProps = React.HTMLAttributes<HTMLDivElement>;
 
-const PmaContainer: React.FC<IPmaContainerProps> = (props) => {
-  const { children, bgc, color, style } = props;
-
-  let _style: React.CSSProperties = style || {};
-
-  /** Override Defaults here */
-  if (bgc) _style.backgroundColor = bgc;
-  if (color) _style.color = color;
-
+const PmaContainer = ({ ...rest }: PmaContainerProps) => {
   return (
-    <div style={_style} {...props } className="number-one">
-        <Goal />
-      {children}
-    </div>
+    <StyledPmaContainer {...rest}>
+      <CoverPage content={pmaData.coverPage}/>
+      <Goal content={pmaData.goal}/>
+    </StyledPmaContainer>
   );
 };
 
