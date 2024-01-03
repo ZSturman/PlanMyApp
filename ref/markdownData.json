@@ -1,63 +1,4 @@
 {
-  "Type": [
-    {
-      "Web Application": {
-        "Description": "An application meant to be accessed through a web browser",
-        "Example": "Facebook, Twitter, Instagram",
-        "Tool-tip": "The type of application is a web application"
-      },
-      "Mobile Application": {
-        "Description": "An application meant to be accessed from a mobile device",
-        "Example": "Facebook, Twitter, Instagram",
-        "Tool-tip": "The type of application is a mobile application"
-      },
-      "Desktop Application": {
-        "Description": "An application meant to be accessed from a dekstop computer",
-        "Example": "Microsoft Word, Microsoft Excel, Microsoft PowerPoint",
-        "Tool-tip": "The type of application is a desktop application"
-      },
-      "Enterprise Platform": {
-        "Description": "A platform meant to be used by an organization",
-        "Example": "Salesforce, SAP, Oracle",
-        "Tool-tip": "The type of application is an enterprise platform"
-      },
-      "Content Management System": {
-        "Description": "A system meant to manage content",
-        "Example": "WordPress, Drupal, Joomla",
-        "Tool-tip": "The type of application is a content management system"
-      },
-      "Embedded System": {
-        "Description": "A system meant to be used by another system",
-        "Example": "Smart TV, Smart Watch, Smart Speaker",
-        "Tool-tip": "The type of application is an embedded system"
-      },
-      "Game Development": {
-        "Description": "A video game meant to be played by a user",
-        "Example": "Call of Duty, Fortnite, League of Legends",
-        "Tool-tip": "The type of application is a game"
-      },
-      "Data Science/ Analytics Application": {
-        "Description": "An applciation or platform meant to analyze data",
-        "Example": "Google Analytics, Tableau, Power BI",
-        "Tool-tip": "The type of application is a data science/ analytics application"
-      },
-      "IoT Application": {
-        "Description": "An applciation or service meant to be used by an IoT device",
-        "Example": "Smart TV, Smart Watch, Smart Speaker",
-        "Tool-tip": "The type of application is an IoT application"
-      },
-      "Other": {
-        "Description": "This application could turn out to be any of these or none of these",
-        "Example": "Don’t know yet",
-        "Tool-tip": "The type of application is unknown"
-      },
-      "I don’t know yet": {
-        "Description": "This application could turn out to be any of these or none of these",
-        "Example": "Anything is possible",
-        "Tool-tip": "The type of application is unknown"
-      }
-    }
-  ],
   "Goal": [
     {
       "Purpose": {
@@ -93,11 +34,6 @@
         "Description": "What are the core features?",
         "Example": "Upload photos, view photos, comment on photos",
         "Tool-tip": "These are the core features"
-      },
-      "User Flows": {
-        "Description": "What are the user flows?",
-        "Example": "Click upload, select photo, add caption, click post",
-        "Tool-tip": "These are the user flows"
       },
       "Must-have": {
         "Description": "What are the must-have features?",
@@ -215,11 +151,6 @@
         "Description": "How will you personalize the experience?",
         "Example": "Show recommended content",
         "Tool-tip": "This is how you will personalize the experience"
-      },
-      "Feedback Opportunities": {
-        "Description": "How will you provide feedback opportunities?",
-        "Example": "Show a feedback form",
-        "Tool-tip": "This is how you will provide feedback opportunities"
       }
     }
   ],
@@ -254,6 +185,11 @@
         "Description": "How will you build a community?",
         "Example": "Create a forum",
         "Tool-tip": "This is how you will build a community"
+      },
+      "Feedback Opportunities": {
+        "Description": "How will you provide feedback opportunities?",
+        "Example": "Show a feedback form",
+        "Tool-tip": "This is how you will provide feedback opportunities"
       }
     }
   ],

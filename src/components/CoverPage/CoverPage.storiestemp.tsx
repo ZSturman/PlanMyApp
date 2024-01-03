@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react';
+/* import type { Meta, StoryObj } from '@storybook/react';
 import CoverPage from './CoverPage';
 import contentData from '../../pma.content.json';
 
@@ -27,4 +27,4 @@ export const Primary: Story = {
         ],
         },
     },
-}
+} */

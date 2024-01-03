@@ -1,1 +1,6 @@
 export { default as Goal } from './Goal'
+export { Purpose } from './Purpose'
+export { CompetitiveAnalysis } from './CompetitiveAnalysis'
+export { SuccessMetrics } from './SuccessMetrics'
+export { TargetAudience } from './TargetAudience'
+export { VisionStatement } from './VisionStatement'

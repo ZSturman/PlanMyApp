@@ -1,17 +1,22 @@
 import React from "react";
-import { StyledPmaContainer } from "../styles/PmaContainer.styled";
-import { CoverPage } from "../CoverPage";
-import { Goal } from "../Goal";
-import pmaData from '../../pma.content.json'
+import main from "../../utilities/ComponentRenderer";
+import pmaData from "../../pma.content.json"; 
 
-type PmaContainerProps = React.HTMLAttributes<HTMLDivElement>;
+type PmaContainerProps = React.HTMLAttributes<HTMLDivElement> & {
+  styleName?: string; // Make styleName an optional prop
+};
 
-const PmaContainer = ({ ...rest }: PmaContainerProps) => {
+const PmaContainer: React.FC<PmaContainerProps> = (props) => {
+  // Pass all props including optional styleName to main function
+  const renderedComponents = main({ data: pmaData, ...props });
+
   return (
-    <StyledPmaContainer {...rest}>
-      <CoverPage content={pmaData.coverPage}/>
-      <Goal content={pmaData.goal}/>
-    </StyledPmaContainer>
+    <div {...props}>
+      {/* Static content or header can go here */}
+      Plan My App
+      {/* Render dynamic components */}
+      {renderedComponents}
+    </div>
   );
 };
 

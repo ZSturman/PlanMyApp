@@ -119,6 +119,6 @@
     "strict": true,
     "target": "es6"
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "configs/finalConfigTest.js", "configs/example.js", "configs/default.config.ts", "configs/mergeConfig.js", "configs/pma.confing.js", "configs/pmaDefault.config.ts"],
   "exclude": ["node_modules", "dist", "**/*.test.tsx", "**/*.test.ts"]
 }

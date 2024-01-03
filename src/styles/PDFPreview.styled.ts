@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import clsx from "clsx";
 
-type StyledPmaContainerProps = React.CSSProperties & {
+type PDFPreviewProps = React.CSSProperties & {
   className?: string;
 };
 
-export const StyledPmaContainer = styled.div.attrs(({ className }) => ({
+const PDFPreview = styled.div.attrs(({ className }) => ({
   className: clsx("pma-container", className),
-}))<StyledPmaContainerProps>`
+}))<PDFPreviewProps>`
   ${({
     fontFamily,
     display,
@@ -20,7 +20,7 @@ export const StyledPmaContainer = styled.div.attrs(({ className }) => ({
     minHeight,
     boxShadow,
   }) => `
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
     position: relative;
     font-family: ${fontFamily || "'Roboto', sans-serif"};
     display: ${display || "flex"};
@@ -34,3 +34,5 @@ export const StyledPmaContainer = styled.div.attrs(({ className }) => ({
     box-shadow: ${boxShadow || "0 0 10px 0 rgba(0, 0, 0, 0.5)"};
     `}
 `;
+
+export default PDFPreview;

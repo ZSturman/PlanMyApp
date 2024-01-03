@@ -1,32 +1,64 @@
 {
-    "theme": "PDFPreview",
-    "coverPage": {
-        "title": "Project Title",
-        "logo": "logo.png",
-        "contributors": [
-            {
-                "role": "Project Manager",
-                "name": "John Doe"
-            },
-            {
-                "role": "Designer",
-                "name": "Jane Doe"
-            },
-            {
-                "role": "Developer",
-                "name": "John Smith"
-            }
+    "theme": "StyledPDFPreview",
+    "stylesDir": "/styles",
+    "assetsDir": "/assets",
+    "componentsDir": "/components",
+    "components": [
+      {
+        "componentName": "CoverPage",
+        "theme": "StyledCoverPage",
+        "components": [
+          {
+            "componentName": "ProjectTitle",
+            "theme": "",
+            "contents": [
+              {
+                "contentType": "text",
+                "contentData": "Project Title",
+                "contentClass": "example-class",
+                "contentId": "project-id"
+              },
+              {
+                "contentType": "text",
+                "contentData": "Project Subtitle",
+                "contentClass": "example-class",
+                "contentId": "project-id"
+              },
+              {
+                "contentType": "list",
+                "contentData": "Authors",
+                "contentClass": "example-class",
+                "contentId": "project-id",
+                "contents": [
+                  {
+                    "contentType": "text",
+                    "contentData": "Author 1",
+                    "contentClass": "example-class",
+                    "contentId": "project-id"
+                  },
+                  {
+                    "contentType": "text",
+                    "contentData": "Author 2",
+                    "contentClass": "example-class",
+                    "contentId": "project-id"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "componentName": "Logo",
+            "theme": "",
+            "contents": [
+              {
+                "contentType": "image",
+                "contentData": "logo.png",
+                "contentClass": "logo",
+                "contentId": "logo"
+              }
+            ]
+          }
         ]
-    },
-    "goal": {
-        "purpose": "The purpose of this project is to...",
-        "visionStatement": "The vision of this project is to...",
-        "targetAudience": "The target audience for this project is...",
-        "successMetrics": [
-            "Success Metric 1",
-            "Success Metric 2",
-            "Success Metric 3"
-        ],
-        "competetiveAnalysis": "Competetive Analysis content goes here..."
-    }    
-}
+      }
+    ]
+  }

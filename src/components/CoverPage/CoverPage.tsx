@@ -1,28 +1,24 @@
 import React from "react";
-import { StyledCoverPage } from "../styles/CoverPage.styled";
-import { StyledFullPage } from "../styles/FullPage.styled";
+import main from "../../utilities/ComponentRenderer";
+import  ComponentsType  from "../../utilities/types/ComponentsType";
+import  ContentType  from "../../utilities/types/ContentType";
 
-import { ProjectTitle } from "./ProjectTitle";
-import { Logo } from "./Logo";
-import { Contributors } from "./Contributors";
-
-type CoverPageProps = {
-  content: {
-    title: string;
-    logo: string;
-    contributors: { role: string; name: string }[];
-  };
+type CoverPageProps = React.HTMLAttributes<HTMLDivElement> & {
+  styleName?: string;
+  components? : ComponentsType[];
+  contents?: ContentType[];
 };
 
-const CoverPage = ({ content }: CoverPageProps) => {
+const CoverPage: React.FC<CoverPageProps> = (props) => {
+  const renderedComponents = main({ data: props, ...props });
+
   return (
-    <StyledFullPage>
-      <StyledCoverPage>
-        <ProjectTitle title={content.title} />
-        <Logo logo={content.logo} />
-        <Contributors contributors={content.contributors} />
-      </StyledCoverPage>
-    </StyledFullPage>
+    <div>
+      {/* Static content or header can go here */}
+      Cover Page
+      {/* Render dynamic components */}
+      {renderedComponents}
+    </div>
   );
 };
 

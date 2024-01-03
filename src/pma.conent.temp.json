@@ -1,0 +1,315 @@
+{
+    "theme": "PDFPreview",
+    "assetsDir": "assets",
+    "componentsDir": "components",
+    "components": [
+      {
+          "componentName": "CoverPage",
+          "componentStyle": "",
+          "components": [
+              {
+                  "componentName": "Logo",
+                  "componentStyle": "",
+                  "components": [],
+                  "contents": [
+                      {
+                          "contentType": "image",
+                          "contentName": "logo",
+                          "contentClassName": "logo",
+                          "contentId": "logo",
+                          "src": "logo.png"
+                      }
+                  ]
+              },
+              {
+                  "componentName": "ProjectTitle",
+                  "componentStyle": "",
+                  "components": [],
+                  "contents": [
+                      {
+                          "contentType": "text",
+                          "contentName": "projectTitle",
+                          "contentClassName": "project-title",
+                          "contentId": "projectTitle",
+                          "content": "Project Title"
+                      }
+                  ]
+              },
+              {
+                  "componentName": "Contributors",
+                  "componentStyle": "",
+                  "components": [],
+                  "contents": [
+                      {
+                          "contentType": "list",
+                          "contentName": "contributors",
+                          "contentClassName": "contributors",
+                          "contentId": "contributors",
+                          "contents": [
+                              {
+                                  "role": "Project Manager",
+                                  "name": "John Doe"
+                              },
+                              {
+                                  "role": "Designer",
+                                  "name": "Jane Doe"
+                              },
+                              {
+                                  "role": "Developer",
+                                  "name": "John Smith"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "content": [
+          ]
+      }
+    ],
+    "goal": {
+      "purpose": "The purpose of this project is to...",
+      "visionStatement": "The vision of this project is to...",
+      "targetAudience": "The target audience for this project is...",
+      "successMetrics": [
+        "Success Metric 1",
+        "Success Metric 2",
+        "Success Metric 3"
+      ],
+      "competetiveAnalysis": "Competetive Analysis content goes here..."
+    },
+    "keyFeatures": {
+      "coreFunctionality": [
+        "Core Functionality 1",
+        "Core Functionality 2",
+        "Core Functionality 3"
+      ],
+      "mustHaves": ["Must Have 1", "Must Have 2", "Must Have 3"],
+      "niceToHaves": ["Nice To Have 1", "Nice To Have 2", "Nice To Have 3"],
+      "futureConsiderations": [
+        "Future Consideration 1",
+        "Future Consideration 2",
+        "Future Consideration 3"
+      ]
+    },
+    "userStories": [
+      {
+        "role": "User Role 1",
+        "stories": ["User Story 1", "User Story 2", "User Story 3"]
+      },
+      {
+        "role": "User Role 2",
+        "stories": ["User Story 1", "User Story 2", "User Story 3"]
+      },
+      {
+        "role": "User Role 3",
+        "stories": ["User Story 1", "User Story 2", "User Story 3"]
+      }
+    ],
+    "techStack": {
+      "frontend": [
+        "Frontend Technology 1",
+        "Frontend Technology 2",
+        "Frontend Technology 3"
+      ],
+      "backend": [
+        "Backend Technology 1",
+        "Backend Technology 2",
+        "Backend Technology 3"
+      ],
+      "database": [
+        "Database Technology 1",
+        "Database Technology 2",
+        "Database Technology 3"
+      ],
+      "deployment": [
+        "Deployment Technology 1",
+        "Deployment Technology 2",
+        "Deployment Technology 3"
+      ],
+      "containerization": [
+        "Containerization Technology 1",
+        "Containerization Technology 2",
+        "Containerization Technology 3"
+      ],
+      "testing": [
+        "Testing Technology 1",
+        "Testing Technology 2",
+        "Testing Technology 3"
+      ],
+      "monitoring": [
+        "Monitoring Technology 1",
+        "Monitoring Technology 2",
+        "Monitoring Technology 3"
+      ],
+      "analytics": [
+        "Analytics Technology 1",
+        "Analytics Technology 2",
+        "Analytics Technology 3"
+      ],
+      "documentation": [
+        "Documentation Technology 1",
+        "Documentation Technology 2",
+        "Documentation Technology 3"
+      ],
+      "security": [
+        "Security Technology 1",
+        "Security Technology 2",
+        "Security Technology 3"
+      ]
+    },
+    "onboarding": {
+      "firstImpressions": "First Impressions content goes here...",
+      "signUpProcess": "Sign Up Process content goes here...",
+      "introductionToFeatures": "Introduction to Features content goes here...",
+      "userExpectations": "User Expectations content goes here...",
+      "personalization": "Personalization content goes here...",
+      "userPreferences": "User Preferences content goes here...",
+      "userSettings": "User Settings content goes here...",
+      "userProfile": "User Profile content goes here...",
+      "userAccount": "User Account content goes here...",
+      "userRoles": "User Roles content goes here..."
+    },
+    "retention": {
+      "updateSchedule": "Update Schedule content goes here...",
+      "engagementHooks": "Engagement Hooks content goes here...",
+      "rewards": "Rewards content goes here...",
+      "gamification": "Gamification content goes here...",
+      "socialSharing": "Social Sharing content goes here...",
+      "pushNotifications": "Push Notifications content goes here...",
+      "emailNotifications": "Email Notifications content goes here...",
+      "smsNotifications": "SMS Notifications content goes here...",
+      "inAppNotifications": "In App Notifications content goes here...",
+      "inAppMessages": "In App Messages content goes here...",
+      "inAppPrompts": "In App Prompts content goes here...",
+      "inAppGuides": "In App Guides content goes here...",
+      "customerSupport": "Customer Support content goes here...",
+      "feedbackOppurtunities": "Feedback Oppurtunities content goes here..."
+    },
+    "deployment": {
+      "iOS": "iOS content goes here...",
+      "Android": "Android content goes here...",
+      "Web": "Web content goes here...",
+      "Desktop": "Desktop content goes here...",
+      "Server": "Server content goes here...",
+      "Database": "Database content goes here...",
+      "Cloud": "Cloud content goes here...",
+      "OnPremise": "On Premise content goes here...",
+      "Hybrid": "Hybrid content goes here...",
+      "Container": "Container content goes here...",
+      "VirtualMachine": "Virtual Machine content goes here..."
+    },
+    "optimization": {
+      "presentation": "Presentation content goes here...",
+      "speed": "Speed content goes here...",
+      "storage": "Storage content goes here...",
+      "visibility": "Visibility content goes here..."
+    },
+    "rolloutStrategies": {
+      "phasedRolling": "Phased rollout content goes here...",
+      "bigBang": "Big Bang rollout content goes here...",
+      "parallel": "Parallel rollout content goes here...",
+      "pilot": "Pilot rollout content goes here...",
+      "staged": "Staged rollout content goes here...",
+      "hotfix": "Hotfix rollout content goes here...",
+      "canary": "Canary rollout content goes here...",
+      "aBTesting": "A/B Testing rollout content goes here...",
+      "blueGreen": "Blue/Green rollout content goes here...",
+      "ring": "Ring rollout content goes here...",
+      "rolling": "Rolling rollout content goes here...",
+      "incremental": "Incremental rollout content goes here..."
+    },
+    "analytics": {
+      "userBehavior": "user behavior content goes here...",
+      "userFeedback": "user feedback content goes here...",
+      "sales": "sales content goes here...",
+      "tags": "tags content goes here..."
+    },
+    "api": {
+      "documentation": "documentation content goes here...",
+      "versioning": "versioning content goes here...",
+      "security": "security content goes here...",
+      "testing": "testing content goes here...",
+      "monitoring": "monitoring content goes here...",
+      "analytics": "analytics content goes here...",
+      "caching": "caching content goes here...",
+      "tracing": "tracing content goes here...",
+      "endpoints": [
+        {
+          "name": "endpoint1",
+          "description": "endpoint 1 description goes here...",
+          "request": "request content goes here...",
+          "response": "response content goes here...",
+          "example": "example content goes here...",
+          "methods": "methods content goes here...",
+          "parameters": "parameters content goes here...",
+          "headers": "headers content goes here...",
+          "body": "body content goes here...",
+          "responseSize": "response size content goes here...",
+          "responseTime": "response time content goes here...",
+          "responseCode": "response code content goes here...",
+          "responseMessage": "response message content goes here...",
+          "responseSchema": "response schema content goes here...",
+          "responseExample": "response example content goes here..."
+        }
+      ]
+    },
+    "wireframes": {
+      "baseDir": "wireframes",
+      "files": [
+        {
+          "name": "wireframe1.png",
+          "description": "wireframe 1 description goes here..."
+        },
+        {
+          "name": "wireframe2.png",
+          "description": "wireframe 2 description goes here..."
+        },
+        {
+          "name": "wireframe3.png",
+          "description": "wireframe 3 description goes here..."
+        }
+      ]
+    },
+    "architecture": {
+      "backend": "backend content goes here...",
+      "frontend": "frontend content goes here...",
+      "database": "database content goes here...",
+      "security": "security content goes here...",
+      "deployment": "deployment content goes here...",
+      "containerization": "containerization content goes here..."
+    },
+    "database": {
+      "schema": "schema content goes here...",
+      "models": "models content goes here...",
+      "queries": "queries content goes here...",
+      "migrations": "migrations content goes here...",
+      "security": "security content goes here..."
+    },
+    "postDeployment": {
+      "upgrades": "upgrades content goes here...",
+      "maintenance": "maintenance content goes here...",
+      "versioning": "versioning content goes here...",
+      "support": "support content goes here...",
+      "documentation": "documentation content goes here..."
+    },
+    "testing": {
+      "unit": "unit testing content goes here...",
+      "integration": "integration testing content goes here...",
+      "system": "system testing content goes here...",
+      "interface": "interface testing content goes here...",
+      "usability": "usability testing content goes here...",
+      "compatibility": "compatibility testing content goes here...",
+      "load": "load testing content goes here...",
+      "stress": "stress testing content goes here...",
+      "capacity": "capacity testing content goes here...",
+      "security": "security testing content goes here..."
+    },
+    "monitization": {
+      "ads": "ads here",
+      "inAppPurchases": "in app purchases here",
+      "subscription": "subscription here",
+      "premiumFeatures": "premium features here"
+    }
+  }
+  

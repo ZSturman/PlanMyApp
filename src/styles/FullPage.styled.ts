@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 type StyledFullPage = React.CSSProperties;
 
-export const StyledFullPage = styled.div.attrs(() => ({
+const StyledFullPage = styled.div.attrs(() => ({
   className: "full-page",
 }))<StyledFullPage>`
   position: absolute;
@@ -15,6 +15,7 @@ export const StyledFullPage = styled.div.attrs(() => ({
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: transparent;
         
         `
+export default StyledFullPage;
